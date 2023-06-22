@@ -16,12 +16,9 @@ public class JuegoPiedraPapelTijera {
                 (eleccionCompetidor1 == 1 && eleccionCompetidor2 == 0) ||
                 (eleccionCompetidor1 == 2 && eleccionCompetidor2 == 1)) {
             System.out.println("¡Competidor 1 es el ganador!");
-        } else if ((eleccionCompetidor1 == 2 && eleccionCompetidor2 == 0) ||
-                (eleccionCompetidor1 == 0 && eleccionCompetidor2 == 1) ||
-                (eleccionCompetidor1 == 1 && eleccionCompetidor2 == 2)) {
-            System.out.println("¡Competidor 2 es el ganador!");
         } else {
-            System.out.println("Las elecciones ingresadas son inválidas.");
+            System.out.println("¡Competidor 2 es el ganador!");
         }
     }
 }
+
